@@ -441,6 +441,7 @@ en:
         email_delete_error: 'Problem deleting contact email:'
         email_delete_button: Delete contact
       form:
+        uneditable_non_default_language: This field is not editable in the current language. Switch to the default language to edit it.
         add_contact_email_button: Add new contact
         fields:
           contact_emails:
