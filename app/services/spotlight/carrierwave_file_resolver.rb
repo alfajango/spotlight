@@ -1,8 +1,8 @@
 module Spotlight
   # Used by RIIIF to find files uploaded by carrierwave
   class CarrierwaveFileResolver < Riiif::AbstractFileSystemResolver
-    # Override initialzer to avoid deprecation about not providing base path
-    def initializer
+    # Override initialize to avoid deprecation about not providing base path
+    def initialize
       # nop
     end
 
